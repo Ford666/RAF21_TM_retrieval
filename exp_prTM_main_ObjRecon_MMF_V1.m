@@ -246,7 +246,7 @@ for gamma = gamma_list
     
     % RAF2-1
     [ObjRe_raf21_temp, ts_raf21{gammaInd}, errCurve_raf21{gammaInd}, ...
-        corrCurve_raf21{gammaInd}] = RAF_objRe(SpekAmp_obj.^2, TM_raf21{gammaInd}, optsRAF_objRec);
+        corrCurve_raf21{gammaInd}] = RAF21_objRe(SpekAmp_obj.^2, TM_raf21{gammaInd}, optsRAF_objRec);
     
     ObjRe_raf21_temp = real(exp(-1i * angle(trace(Object(:)' * ObjRe_raf21_temp(:)))) * ObjRe_raf21_temp);
     ObjRe_raf21{gammaInd} = reshape((ObjRe_raf21_temp-min(ObjRe_raf21_temp))./(max(ObjRe_raf21_temp)-min(ObjRe_raf21_temp)), N, N);
