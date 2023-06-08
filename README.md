@@ -2,7 +2,7 @@
 
 This repository stores codes for our manuscript *Nonconvex optimization approach for optimum retrieval of the transmission matrix of a multimode fiber*, whcih is currently under review and hopefully will be accepted soon.   
 
-The aim of TM retrieval is to retrieve a complex-valued transmission matrix from intensity-only speckle measurements of a scattering medium or multimode fiber (MMF). We propose a modified nonconvex optimization approach (i.e., RAF 2-1) for TM retrieval, whhich is featured with optimum efficiency and fast execution in a reference-less and robust setting. This may gain special attention for many deep-tissue imaging and focusing applications with the usage of MMF.
+The aim of TM retrieval is to retrieve a complex-valued transmission matrix (TM) from intensity-only speckle measurements of a scattering medium or multimode fiber (MMF). We propose a modified nonconvex optimization approach (*i.e.*, RAF 2-1) for TM retrieval, which is featured with optimum efficiency and fast execution in a reference-less and robust setting. This may gain special attention for many deep-tissue imaging and focusing applications with the usage of MMF.
 
 
 
@@ -16,9 +16,9 @@ Run `sim_prTM_main_compar.m` to conduct simulations for performance comparison.
 In experiment, we perform single-spot & multi-spot focusing through MMF, focus scanning across the fiber region, and image transmission through MMF.
 
 ### Prequisite
-- Your computer should install [ALp-4.3](https://www.vialux.de/en/download.html) for controlling digital micromirror device (DMD, DLP9500, Texas Instruments Inc, USA), remember to change the directories of ALP-4.3, including alp4395.dll and alp.h, to your local ones.   
+- Your computer should install [ALp-4.3](https://www.vialux.de/en/download.html) for controlling the digital micromirror device (DMD, DLP9500, Texas Instruments Inc, USA), remember to change the directories of ALP-4.3, including alp4395.dll and alp.h, to your local ones.   
 
-- We use the mex programming (`./utils/CudaLee_1920_1080.mexw64`) to generate the binary computer-generated-hologram (CGH) to equip a 1920x1080 DMD with phase modulation ability. To use the mexw64 function, you need to compile it first in MATLAB with C/C++ compiler being installed. The process may be complicated, and the very basic MATLAB command is: mex -setup C++.
+- We use the mex programming (`./utils/CudaLee_1920_1080.mexw64`) to generate the binary computer-generated-hologram (CGH), which is uploaded to a 1920x1080 DMD for phase modulation. To use the mexw64 function, you may need to compile it first in MATLAB with C/C++ compiler being installed. The process may be complicated, and a very basic MATLAB command is: mex -setup C++.
 
 
 
