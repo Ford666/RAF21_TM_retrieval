@@ -18,7 +18,7 @@ In experiment, we perform single-spot & multi-spot focusing through MMF, focus s
 ### Prequisite
 - Your computer should install [ALp-4.3](https://www.vialux.de/en/download.html) for controlling digital micromirror device (DMD, DLP9500, Texas Instruments Inc, USA), remember to change the directories of ALP-4.3, including alp4395.dll and alp.h, to your local ones.   
 
-- We use the mex programming (`./utils/CudaLee_1920_1080.mexw64`) to generate the binary computer-generated-hologram (CGH) to equip a 1920x1080 DMD with phase modulation ability. To use the mexw64 function, you need to compile it first in MATLAB with C/C++ compiler being installed. The process may be complicated, and the very basic MATLAB command is: mex -setup C++
+- We use the mex programming (`./utils/CudaLee_1920_1080.mexw64`) to generate the binary computer-generated-hologram (CGH) to equip a 1920x1080 DMD with phase modulation ability. To use the mexw64 function, you need to compile it first in MATLAB with C/C++ compiler being installed. The process may be complicated, and the very basic MATLAB command is: mex -setup C++.
 
 
 
@@ -36,5 +36,5 @@ Run `exp_prTM_main_PBRMap_MMF_V1.m `. This is performed on the condition that th
 ### ATTENTIONS:
 - Although the codes are written for calibrating the TM of a MMF, they are also applicable to regular scattering media. For that, set `fiberAlign=0`, which means the alignment of the fiber imaging area is unnecessary.  
 
-- If you encounter bugs that hard to deal with by youself, please feel free to contact me: Shengfu Cheng (ford.scu.edu@gmail.com)
+- If you encounter bugs that are hard to deal with by youself, please feel free to contact me: Shengfu Cheng (ford.scu.edu@gmail.com)
 
