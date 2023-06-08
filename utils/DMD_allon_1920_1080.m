@@ -8,8 +8,8 @@ close all
 % clear deviceid;
 
 %% prepare
-addpath('Z:\Shengfu\utils');
-addpath('Z:\Shengfu\DMDCode');
+addpath('./utils');
+addpath('./DMDCode');
 
 % load DMD
 if ~libisloaded('DMD')
