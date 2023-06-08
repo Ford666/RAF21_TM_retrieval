@@ -20,7 +20,7 @@ In experiment, we perform single-spot & multi-spot focusing through MMF, focus s
 
 - We use the mex programming (`./utils/CudaLee_1920_1080.mexw64`) to generate the binary computer-generated-hologram (CGH), which is uploaded to a 1920x1080 DMD for phase modulation. To use the mexw64 function, you may need to compile it first in MATLAB with C/C++ compiler being installed. The process may be complicated, and a very basic MATLAB command is: mex -setup C++.
 
-
+- The MATLAB toolbox of Image Acquisition Explorer is also required, as many APIs are called during the process of image acquisition in experiment.
 
 ### single-spot & multi-spot focusing
 Run `exp_prTM_main_focus_MMF_V1.m `.  
@@ -31,7 +31,7 @@ Run `exp_prTM_main_PBRMap_MMF_V1.m `, remember to change the sampling rate (gamm
 
 
 ### image transmission through MMF.
-Run `exp_prTM_main_PBRMap_MMF_V1.m `. This is performed on the condition that the experial TM is acquired (under a certain sampling rate).
+Run `exp_prTM_main_PBRMap_MMF_V1.m `. This is performed on the condition that the emperial TM is acquired (under a certain sampling rate).
 
 ### ATTENTIONS:
 - Although the codes are written for calibrating the TM of a MMF, they are also applicable to regular scattering media. For that, set `fiberAlign=0`, which means the alignment of the fiber imaging area is unnecessary.  
