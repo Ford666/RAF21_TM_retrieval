@@ -9,7 +9,7 @@ The aim of TM retrieval is to retrieve a complex-valued transmission matrix (TM)
 RAF 2-1 is compared with the existing representative methods (*e.g.*, prVBEM [1], GGS 2-1 [2]) for TM retrieval. Note in simulations, algorithms of CPU verison were used for fair comparison, including `prVBEM_tm_cpu.m`, `GGS21_tm_cpu.m`, `RAF_tm_cpu.m` and `RAF21_tm_cpu.m` in the directory of `algs`. 
 
 - Run the demo code `TM_retrieval_algCompare_default.m` that gives a visual comparison of the focusing efficiency achieved by various algorithms at default settings (*i.e.*, sampling rate=5, without noise, running time=20 s).
-<img src="https://github.com/Ford666/RAF21_TM_retrieval/blob/main/images/Algorithm_comparison_image_histogram_default.png " width="800px">
+<img src="https://github.com/Ford666/RAF21_TM_retrieval/blob/main/images/Algorithm_comparison_image_histogram_default.png " width="1000px">
 
 - Performance comparison in terms of the running time, the sampling rate, different numbers of input mode and different levels of signal-to-noise ratio are provided in the manuscript.
 
@@ -18,7 +18,7 @@ RAF 2-1 is compared with the existing representative methods (*e.g.*, prVBEM [1]
 In experiment, we perform single-spot & multi-spot focusing through MMF, focus scanning across the fiber region, and image transmission through MMF. Note in experiments, algorithms of GPU verison were used, including `prVBEM_tm.m`, `GGS21_tm.m`, `RAF_tm.m` and `RAF21_tm.m`. 
 
 ### Experimental setup for reference-less MMF calibration
-<img src="https://github.com/Ford666/RAF21_TM_retrieval/blob/main/images/Fig.3.png" width="800px">
+<img src="https://github.com/Ford666/RAF21_TM_retrieval/blob/main/images/Fig.3.png" width="600px">
 
 
 ### single-spot & multi-spot focusing
