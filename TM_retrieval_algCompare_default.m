@@ -1,10 +1,5 @@
-% Compare the performances of different TM retrieval algorithms under the condition of 
-% (1) different input sizes N
-% (2) different sampling rates P/N
-% (3) different signal-to-noise ratio  
-
-% 0: PBR distribution at default settings, 1: PBR progression with time, 
-% 2: PBR progression with sampling rates, 3: PBR progression with input size, 4: SNR
+% Compare the performances of different TM retrieval algorithms at default
+% settings (gamma=5, without noise, running time=20 s)
 
 % Author: Shengfu Cheng
 % Updated Date: 09/03/2023
@@ -72,9 +67,9 @@ maxErr = max([max(errCurve_vbem), max(errCurve_ggs21), max(errCurve_raf21)]);
 semilogy(ts_vbem(2:end), errCurve_vbem./maxErr, 'k-', ts_ggs21(2:end), errCurve_ggs21./maxErr, 'b-', ts_raf21(2:end), errCurve_raf21./maxErr,'r-', 'linewidth', 2);
 legend('prVBEM', 'GGS2-1', 'RAF2-1','fontname', 'Times New Roman Bold','fontsize', 12);
 ylim([0 1]); grid on; set(gca,'FontSize',18, 'LineWidth', 1); 
-xlabel(sprintf('t/s (N=%d, \\gamma=%d)', N^2, gamma), 'fontname', 'Times New Roman Bold', 'fontsize', 21); ylabel('Normalized focus PBR', 'fontname', 'Times New Roman Bold', 'fontsize', 21);
+xlabel(sprintf('t/s (N=%d, \\gamma=%d)', N^2, gamma), 'fontname', 'Times New Roman Bold', 'fontsize', 21); ylabel('Normalized error', 'fontname', 'Times New Roman Bold', 'fontsize', 21);
 
-print(gcf,'-dpng', '-r400', sprintf('Algorithm_comparison_errorCurve_default.png'));   
+% print(gcf,'-dpng', '-r400', sprintf('Algorithm_comparison_errorCurve_default.png'));   
 
 
 
