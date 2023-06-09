@@ -6,7 +6,7 @@ The aim of TM retrieval is to retrieve a complex-valued transmission matrix (TM)
 
 ## RAF 2-1 for TM retrieval
 The pseudocode of retrieving one row of TM is described by:
-<img src="https://github.com/Ford666/RAF21_TM_retrieval/blob/main/images/RAF 2-1.png " width="800px">
+<img src="https://github.com/Ford666/RAF21_TM_retrieval/blob/main/images/RAF 2-1.png " width="600px">
 
 
 
