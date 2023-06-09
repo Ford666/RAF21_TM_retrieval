@@ -5,7 +5,8 @@ This repository stores the demo codes for our manuscript *Nonconvex optimization
 The aim of TM retrieval is to retrieve a complex-valued transmission matrix (TM) from intensity-only speckle measurements of a scattering medium or multimode fiber (MMF). We propose a modified nonconvex optimization approach (*i.e.*, RAF 2-1) for TM retrieval, which is featured with optimum efficiency and fast execution in a reference-less and robust setting. This may gain special attention for many deep-tissue imaging and focusing applications with the usage of MMF.
 
 ## RAF 2-1 for TM retrieval
-The pseudocode of retrieving one row of TM is described by:
+The pseudocode of retrieving one row of TM is described by:  
+
 <img src="https://github.com/Ford666/RAF21_TM_retrieval/blob/main/images/RAF 2-1.png " width="500px">
 
 
