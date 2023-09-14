@@ -1,7 +1,8 @@
 function [A_pr, ts, errCurve] = prVBEM_tm(y, x, iters, useGPU)
     % Phase recovery algorithm for TM retrieval
-    % "Phase recovery from a Bayesian point of view: the variational approach" by A. Dr¨¦meau and F. Krzakala
-   
+    % "Phase recovery from a Bayesian point of view: the variational approach" by A. Drémeau and F. Krzakala
+    % The code is adopted from https://github.com/sudarshannagesh90/phase_retrieval/blob/master/Algorithms/prVBEM_withnoise
+    
     saveErr = (nargout > 2);
 
     [m, p] = size(y);
