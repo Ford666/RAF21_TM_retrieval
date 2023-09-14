@@ -1,6 +1,6 @@
 function [A_pr, ts, errCurve] = prVBEM_tm_cpu(y, x, opts)
     % Phase recovery algorithm for TM retrieval
-    % "Phase recovery from a Bayesian point of view: the variational approach" by A. Dr¨¦meau and F. Krzakala
+    % "Phase recovery from a Bayesian point of view: the variational approach" by A. DrÂ¨Â¦meau and F. Krzakala
    
     saveErr = (nargout > 2);
 
@@ -21,7 +21,7 @@ function [A_pr, ts, errCurve] = prVBEM_tm_cpu(y, x, opts)
     var_a  = max(abs(tmp_A), [], 1).^2; 
     phase = exp(1i*2*pi*rand(p,m,'single'));
     A_pr = xH * (y.*phase);
-    var_n      = var(y, 0, 1)*1e-3;
+    var_n      = var(y, 0, 1)*1e-6;
     flag_est_n = 'on';
     pas_est    = 0.1;
     flag_cv    = 'KL';
