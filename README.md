@@ -28,7 +28,9 @@ In experiment, we perform single-spot & multi-spot focusing through MMF, focus s
 
 ## Reference
 [1] Wang, G., Giannakis, G. B., Saad, Y., & Chen, J. (2018). Phase retrieval via reweighted amplitude flow. IEEE Transactions on Signal Processing, 66(11), 2818-2833.
+
 [2] Drémeau, A., Liutkus, A., Martina, D., Katz, O., Schülke, C., Krzakala, F., ... & Daudet, L. (2015). Reference-less measurement of the transmission matrix of a highly scattering material using a DMD and phase retrieval techniques. Optics express, 23(9), 11898-11911.
+
 [3] Huang, G., Wu, D., Luo, J., Lu, L., Li, F., Shen, Y., & Li, Z. (2021). Generalizing the Gerchberg–Saxton algorithm for retrieving complex optical transmission matrices. Photonics Research, 9(1), 34-42.
 
 
