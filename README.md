@@ -14,7 +14,7 @@ The pseudocode of retrieving one row of TM is described by:
 
 
 ## Simulation
-RAF 2-1 is compared with the existing representative methods (*e.g.*, prVBEM [1], GGS 2-1 [2]) for TM retrieval. Note in simulations, algorithms of CPU verison were used for fair comparison, in which all the target rows of TM are retrieved in parallel, including `prVBEM_tm_cpu.m`, `GGS21_tm_cpu.m`, `RAF_tm_cpu.m` and `RAF21_tm_cpu.m` in the directory of "algs". 
+RAF 2-1 is compared with the existing representative methods (*e.g.*, prVBEM [1], GGS 2-1 [2]) for TM retrieval. Note in simulations, algorithms of CPU verison were used for fair comparison, in which all the target rows of TM are retrieved in parallel, including `prVBEM_tm_cpu.m`, `GGS21_tm_cpu.m`, `RAF_tm_cpu.m` and `RAF21_tm_cpu.m` in the directory of `algs`. 
 
 - Run the main file `TM_retrieval_algCompare_default.m` that gives a visual comparison of the focusing efficiency achieved by various algorithms at default settings (*i.e.*, sampling ratio=5, without noise, running time=20 s).
 <img src="https://github.com/Ford666/RAF21_TM_retrieval/blob/main/images/Algorithm_comparison_image_histogram_default.png " width="1000px">
@@ -23,7 +23,7 @@ RAF 2-1 is compared with the existing representative methods (*e.g.*, prVBEM [1]
 
 
 ## Experiments
-In experiment, we perform single-spot & multi-spot focusing through MMF, focus scanning across the fiber region, and image transmission through MMF. Note in experiments, algorithms of GPU verison were used, including `prVBEM_tm.m`, `GGS21_tm.m`, `RAF_tm.m` and `RAF21_tm.m` in the directory of "algs", and the acceleration effects may vary for different algorithms.
+In experiment, we perform single-spot & multi-spot focusing through MMF, focus scanning across the fiber region, and image transmission through MMF. Note in experiments, algorithms of GPU verison were used, including `prVBEM_tm.m`, `GGS21_tm.m`, `RAF_tm.m` and `RAF21_tm.m` in the directory of `algs`, and the acceleration effects may vary for different algorithms.
 
 
 If you encounter bugs that are hard to deal with by youself, please feel free to contact me: Shengfu Cheng (ford.scu.edu@gmail.com)
