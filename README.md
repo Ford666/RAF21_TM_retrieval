@@ -26,6 +26,12 @@ RAF 2-1 was adapted from RAF[1] and used for non-interferometric retrieval of TM
 In experiment, we perform single-spot & multi-spot focusing through MMF, focus scanning across the fiber region, and image transmission through MMF. Note in experiments, algorithms of GPU verison were used, including `prVBEM_tm.m`, `GGS21_tm.m`, `RAF_tm.m` and `RAF21_tm.m` in the directory of `algs`, and the acceleration effects may vary for different algorithms.
 
 
+## Reference
+[1] Wang, G., Giannakis, G. B., Saad, Y., & Chen, J. (2018). Phase retrieval via reweighted amplitude flow. IEEE Transactions on Signal Processing, 66(11), 2818-2833.
+[2] Drémeau, A., Liutkus, A., Martina, D., Katz, O., Schülke, C., Krzakala, F., ... & Daudet, L. (2015). Reference-less measurement of the transmission matrix of a highly scattering material using a DMD and phase retrieval techniques. Optics express, 23(9), 11898-11911.
+[3] Huang, G., Wu, D., Luo, J., Lu, L., Li, F., Shen, Y., & Li, Z. (2021). Generalizing the Gerchberg–Saxton algorithm for retrieving complex optical transmission matrices. Photonics Research, 9(1), 34-42.
+
+
 If you encounter bugs that are hard to deal with by youself, please feel free to contact me: Shengfu Cheng (ford.scu.edu@gmail.com)
 
 If you use the codes in your project, please consider to cite our work:
@@ -42,3 +48,5 @@ year = {2023},
 doi = {10.1117/1.APN.2.6.066005},
 URL = {https://doi.org/10.1117/1.APN.2.6.066005}
 }
+
+
