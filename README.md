@@ -34,7 +34,9 @@ In experiment, we perform single-spot & multi-spot focusing through MMF, focus s
 [3] Huang, G., Wu, D., Luo, J., Lu, L., Li, F., Shen, Y., & Li, Z. (2021). Generalizing the Gerchberg–Saxton algorithm for retrieving complex optical transmission matrices. Photonics Research, 9(1), 34-42.
 
 
+## Contact and Citation
 If you encounter bugs that are hard to deal with by youself, please feel free to contact me: Shengfu Cheng (ford.scu.edu@gmail.com)
+
 
 If you use the codes in your project, please consider to cite our work:
 > @article{10.1117/1.APN.2.6.066005,
