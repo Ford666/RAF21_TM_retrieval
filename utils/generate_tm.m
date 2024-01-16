@@ -6,6 +6,8 @@ function TM = generate_tm(M, N)
     %               N: weight of Transmission Matric
     % Returns:
     %               Transmission Matric
+
+    % Adapted from https://github.com/comediaLKB/NMF_PR/blob/master/generate_tm.m
     
     % Pupil definition    
     sz_grains = 4;   %size of a single speckle grain
