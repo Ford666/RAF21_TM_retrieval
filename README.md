@@ -16,10 +16,10 @@ The pseudocode of retrieving one row of TM is described by:
 ## Simulation
 RAF 2-1 is compared with the existing representative methods (*e.g.*, prVBEM [1], GGS 2-1 [2]) for TM retrieval. Note in simulations, algorithms of CPU verison were used for fair comparison, in which all the target rows of TM are retrieved in parallel, including `prVBEM_tm_cpu.m`, `GGS21_tm_cpu.m`, `RAF_tm_cpu.m` and `RAF21_tm_cpu.m` in the directory of "algs". 
 
-- Run the main file `TM_retrieval_algCompare_default.m` that gives a visual comparison of the focusing efficiency achieved by various algorithms at default settings (*i.e.*, sampling rate=5, without noise, running time=20 s).
+- Run the main file `TM_retrieval_algCompare_default.m` that gives a visual comparison of the focusing efficiency achieved by various algorithms at default settings (*i.e.*, sampling ratio=5, without noise, running time=20 s).
 <img src="https://github.com/Ford666/RAF21_TM_retrieval/blob/main/images/Algorithm_comparison_image_histogram_default.png " width="1000px">
 
-- Performance comparison in terms of the running time, the sampling rate, different numbers of input mode and different levels of signal-to-noise ratio are provided in the manuscript.
+- Performance comparison in terms of different running times, sampling ratio, numbers of input modes and signal-to-noise ratio levels are provided in the manuscript.
 
 
 ## Experiments
