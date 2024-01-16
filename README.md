@@ -1,6 +1,6 @@
 # TM retrieval with RAF 2-1 algorithm
 
-This repository stores the Matlab codes for a simple demo of our manuscript *Nonconvex optimization for optimum retrieval of the transmission matrix of a multimode fiber*, which has been published in [Advanced Photonics Nexus] (https://doi.org/10.1117/1.APN.2.6.066005).   
+This repository stores the Matlab codes for a simple demo of our manuscript *Nonconvex optimization for optimum retrieval of the transmission matrix of a multimode fiber*, which has been published in [Advanced Photonics Nexus](https://doi.org/10.1117/1.APN.2.6.066005).   
 
 The aim of TM retrieval is to retrieve a complex-valued transmission matrix (TM) from intensity-only speckle measurements of a scattering medium or multimode fiber (MMF). We propose a modified nonconvex optimization approach (*i.e.*, RAF 2-1) for TM retrieval, which is featured with optimum efficiency and fast execution in a reference-less and robust setting. This may gain special attention for many deep-tissue imaging and focusing applications with the usage of MMF.
 
