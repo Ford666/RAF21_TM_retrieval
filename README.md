@@ -39,7 +39,8 @@ If you encounter bugs that are hard to deal with by youself, please feel free to
 
 
 If you use the codes in your project, please consider to cite our work:
-> @article{10.1117/1.APN.2.6.066005,
+```
+@article{10.1117/1.APN.2.6.066005,
 author = {Shengfu Cheng and Xuyu Zhang and Tianting Zhong and Huanhao Li and Haoran Li and Lei Gong and Honglin Liu and Puxiang Lai},
 title = {{Nonconvex optimization for optimum retrieval of the transmission matrix of a multimode fiber}},
 volume = {2},
@@ -52,5 +53,5 @@ year = {2023},
 doi = {10.1117/1.APN.2.6.066005},
 URL = {https://doi.org/10.1117/1.APN.2.6.066005}
 }
-
+```
 
